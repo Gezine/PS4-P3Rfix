@@ -6,3 +6,5 @@ Supported version are
 CUSA36157 (China/Korea) 1.07 and 1.08  
 CUSA37521 (USA) 1.07  
   
+If you liked my work support me :)  
+https://github.com/sponsors/Gezine  

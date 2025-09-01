@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+    <TitleID>
+        <ID>CUSA37521</ID>
+    </TitleID>
+    <Metadata Title="Persona 3 Reload US" Name="60 FPS" Author="Gezine" PatchVer="1.00" AppVer="01.07" AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="bytes" Address="0x197DDAB" Value="31F6" />
+            <Line Type="bytes" Address="0x197DF31" Value="31F6" />
+            <Line Type="bytes" Address="0x197CAA7" Value="EB5D" />
+            <Line Type="bytes" Address="0x198F450" Value="BA00000000" />
+            <Line Type="bytes" Address="0x197CFBB" Value="EB07" />
+            <Line Type="bytes" Address="0x197CEED" Value="9090" />
+            <Line Type="bytes" Address="0x197CEF4" Value="9090" />
+            <Line Type="bytes" Address="0x197CF01" Value="9090" />
+            <Line Type="bytes" Address="0x6A1F800" Value="48B8000000000000504066480F6EC0E98C88F4B1" />
+            <Line Type="bytes" Address="0x1B44098" Value="E963B7ED04909090" />
+            <Line Type="bytes" Address="0x6A1F816" Value="48B8000000000000504066480F6EC0E91588F4B1" />
+            <Line Type="bytes" Address="0x1B44837" Value="E9DAB7ED04909090" />
+            <Line Type="bytes" Address="0x6A1F82C" Value="C787B000000000007042E931A3E5FC" />
+            <Line Type="bytes" Address="0x3A05264" Value="E9C3A50103909090" />
+            <Line Type="bytes" Address="0x6A1F83D" Value="B900007042660F6EC131C9E9172F54FD" />
+            <Line Type="bytes" Address="0x3F6275F" Value="E9D9D0AB02" />
+        </PatchList>
+    </Metadata>
+    <Metadata Title="Persona 3 Reload US" Name="Disable Motion Blur" Author="Gezine" PatchVer="1.00" AppVer="01.07" AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="bytes" Address="0x2C501FE" Value="EB5A" />
+        </PatchList>
+    </Metadata>
+</Patch>
